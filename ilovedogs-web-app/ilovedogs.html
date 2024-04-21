@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ilovedogs.css">
+    <title>Онлайн католог собак</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align:center">Онлайн католог собак</h1>
+        <form id="searchForm" onsubmit="return search()">
+            <input type="text" id="searchInput" placeholder="Поиск...">
+            <button type="submit">Найти</button>
+        </form>
+    </header>
+    <main style="display: flex; justify-content: center; flex-wrap: wrap;">
+        <!--Здесь будет содержимое католога-->
+        <!--1 пес-->
+        <div class="dog-card" onclick="goToDogPage1()">
+            <a href="affenpinscher.html">
+                <img src="dogs/affenpinscher.jpg" alt="affenpinscher" style="width:150px; height:150px">
+            </a>
+            <h2>Аффенпинчер</h2>
+        </div>
+        <!--2 пес-->
+        <div class="dog-card" onclick="goToDogPage2()">
+            <a href="afghan_hound.html">
+                <img src="dogs/afghan_hound.jpg" alt="afghan_hound" style="width:150px; height:150px"> 
+            </a>
+            <h2>Афганская Борзая</h2>
+        </div>
+        <!--3 пес-->
+        <div class="dog-card" onclick="goToDogPage3()">
+            <a href="airetale_terrier.html">
+                <img src="dogs/airedale_terrier.jpg" alt="airedale_terrier" style="width:150px; height:150px"> 
+            </a>
+            <h2>Эрдельтерьер</h2>
+        </div>
+        <!--4 пес-->
+        <div class="dog-card" onclick="goToDogPage4()">
+            <a href="alaskan_malamute.html">
+                <img src="dogs/alaskan_malamute.jpg" alt="alaskan_malamute" style="width:150px; height:150px"> 
+            </a>
+            <h2>Аляскинский маламут</h2>
+        </div>
+        <!--5 пес-->
+        <div class="dog-card" onclick="goToDogPage5()">
+            <a href="anatolian_shepherd.html">
+                <img src="dogs/anatolian_shepherd.jpg" alt="anatolian_shepherd" style="width:150px; height:150px"> 
+            </a>
+            <h2>Анатолийская овчарка</h2>
+        </div>
+        <!--6 пес-->
+        <div class="dog-card" onclick="goToDogPage6()">
+            <a href="australian_cattle.html">
+                <img src="dogs/australian_cattle.jpg" alt="australian_cattle" style="width:150px; height:150px"> 
+            </a>
+            <h2>Австралийская пастушья собака</h2>
+        </div>
+        <!--7 пес-->
+        <div class="dog-card" onclick="goToDogPage7()">
+            <a href="australian_shepherd.html">
+                <img src="dogs/australian_shepherd.jpg" alt="australian_shepherd" style="width:150px; height:150px"> 
+            </a>
+            <h2>Австралийская овчарка</h2>
+        </div>
+        <!--8 пес-->
+        <div class="dog-card" onclick="goToDogPage8()">
+            <a href="basset_fauve_de_bretagne.html">
+                <img src="dogs/basset_fauve_de_bretagne.jpg" alt="basset_fauve_de_bretagne" style="width:150px; height:150px"> 
+            </a>
+            <h2>Бретонский бассет</h2>
+        </div>
+        <!--9 пес-->
+        <div class="dog-card" onclick="goToDogPage9()">
+            <a href="bavarian_mountain_hound.html">
+                <img src="dogs/bavarian_mountain_hound.jpg" alt="bavarian_mountain_hound" style="width:150px; height:150px"> 
+            </a>
+            <h2>Баварская горная гончая</h2>
+        </div>  
+        <!--10 пес-->
+        <div class="dog-card" onclick="goToDogPage10()">
+            <a href="beagle.html">
+                <img src="dogs/beagle.jpg" alt="beagle" style="width:150px; height:150px"> 
+            </a>
+            <h2>Бигль</h2>
+        </div>
+        <!--11 пес-->
+        <div class="dog-card" onclick="goToDogPage11()">
+            <a href="belgian_shepherd_groenendael.html">
+                <img src="dogs/belgian_shepherd_groenendael.jpg" alt="belgian_shepherd_groenendael" style="width:150px; height:150px"> 
+            </a>
+            <h2>Грюнендаль</h2>
+        </div>
+        <!--12 пес-->
+        <div class="dog-card" onclick="goToDogPage12()">
+            <a href="bichon_frise.html">
+                <img src="dogs/bichon_frise.jpg" alt="bichon_frise" style="width:150px; height:150px"> 
+            </a>
+            <h2>Бишон Фризе</h2>
+        </div>
+    </main>
+    <footer>
+        <p>@ Онлайн католог собак от Бекзата</p>
+    </footer>
+</body>
+</html>
